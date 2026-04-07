@@ -1,47 +1,37 @@
-# Jinete: Java-Based 3D Navigator of the Internet (1998)
+# Jinete: Java-Based 3D Navigator of the Internet (1999)
 
-![Award](https://img.shields.io/badge/ACM_Contest-3rd_Place_(1998)-gold)
-![Java Version](https://img.shields.io/badge/Java-1.1%20/%201.2-red)
-![Platform](https://img.shields.io/badge/Platform-Windows%2095%2F98%20%7C%20Solaris-lightgrey)
+![Award](https://img.shields.io/badge/ACM_Contest-3rd_Place_(1999)-gold)
+![Java Version](https://img.shields.io/badge/Java-1.2_(Java_2)-red)
+![Platform](.../Tijuana_Context) *(Developed in Oklahoma / Rooted in Tijuana)*
 
-**Jinete** (Spanish for "Rider") is a 3D network visualization tool developed in 1998 by engineering students at the University of Oklahoma. It won **3rd Place** in the national Java Programming Contest sponsored by the **ACM (Association for Computing Machinery)**.
+**Jinete** (Spanish for "Rider") is a legacy 3D network visualization engine developed in 1999. Created by Jose Enrique Segura Luquin and an engineering partner at the University of Oklahoma, the project earned **3rd Place** in the prestigious Java Programming Contest sponsored by the **ACM (Association for Computing Machinery)**.
 
-Before the modern security landscape of firewalls and DDoS protections, Jinete allowed users to "walk" through the physical structure of the internet using ICMP discovery and a unique spatial mapping of the IPv4 address space.
-
----
-
-## 🌐 The Concept
-
-In 1998, the internet was often referred to as the "Information Superhighway." Jinete took this literally, transforming the abstract concept of IP addresses into a navigable 3D galaxy.
-
-### Spatial Mapping Logic
-The core engine translated an IPv4 address `(A.B.C.D)` into a 3D coordinate system:
-* **Cluster Position ($X, Y, Z$):** Determined by the first three octets of the IP address.
-* **Local Position ($d$):** The fourth octet determined the specific placement of the device within that spatial cluster.
-
-This allowed users to start from their own public IP and literally see their neighbors on the local subnet before "flying" to distant networks.
-
-## 🛠 Features
-
-* **Active Discovery:** Utilized `ping` (ICMP) to detect live devices in real-time.
-* **3D Traversal:** A first-person perspective navigation engine built during the early days of Java 3D and high-performance JVMs.
-* **Network Topology Visualization:** Provided a visual sense of "distance" between networks that a standard terminal could not convey.
-
-## 🏆 Historical Significance
-
-The project was recognized by the **ACM** for its innovative use of Java's then-emerging networking and graphical capabilities. It represents a snapshot of an era when the internet was an open frontier, and global device discovery was possible from a single desktop application.
-
-## 📜 Original Tech Stack (circa 1998)
-
-* **Language:** Java (JDK 1.1.x / 1.2 Beta)
-* **Graphics:** ThreeD.java and VRML.java
-* **Networking:** Standard `java.net` and native ICMP calls for pinging.
-* **Development Environment:** simple Notepad/JDK.
+Built during the "Wild West" era of the internet, Jinete reimagined the IPv4 address space as a physical, navigable landscape.
 
 ---
 
-## 📂 Project Status
-**Note:** This repository serves as a historical archive. Due to the evolution of internet security and the deprecation of early Java graphics libraries, this software is provided "as-is" for educational and nostalgic purposes.
+## 🌐 The Concept: Mapping the IP Galaxy
 
-> "We didn't just want to browse the web; we wanted to ride through it." 
-> — *The Jinete Team, 1998*
+In 1999, the internet was a more transparent frontier. Jinete functioned by translating the logical structure of IPv4 addresses directly into Euclidean 3D coordinates:
+
+* **Cluster Coordinates ($X, Y, Z$):** Derived from the first three octets of an IP address, defining a network's "sector" in space.
+* **Local Position:** The 4th octet determined the specific placement of a device within that cluster.
+
+### 📡 Discovery & Navigation
+Starting from the user's own public IP, the application used **ICMP (Ping)** to discover active devices. Users could literally "ride" from their local network out into the wider internet, visualizing the proximity of devices and the vastness of the global network in real-time—a feat made possible by the lack of widespread firewalls and DoS concerns at the time.
+
+## 🏆 Achievements
+* **Award:** 3rd Place, ACM Java Programming Contest (1999).
+* **Innovation:** Early implementation of spatial network topology using Java’s emerging networking libraries.
+
+## 🛠 Historical Tech Stack
+* **Language:** Java 2 (JDK 1.2).
+* **Networking:** `java.net` utilizing ICMP for device discovery.
+* **Environment:** Developed during the transition to the modern Java platform.
+
+---
+
+## 📂 Repository Note
+This repository is a historical archive of the 1999 award-winning project. It stands as a testament to early 3D web experimentation and the evolution of network security and visualization.
+
+> "A journey through the internet should be more than a series of links; it should be a ride through a digital universe."
