@@ -2,7 +2,7 @@
 
 ![Award](https://img.shields.io/badge/ACM_Contest-3rd_Place_(1999)-gold)
 ![Java Version](https://img.shields.io/badge/Java-1.2_(Java_2)-red)
-![Platform](.../Tijuana_Context) *(Developed in Oklahoma / Rooted in Tijuana)*
+![Platform](.../Tijuana_Context) 
 
 **Jinete** (Spanish for "Rider") is a legacy 3D network visualization engine developed in 1999. Created by Jose Enrique Segura Luquin and an engineering partner at the University of Oklahoma, the project earned **3rd Place** in the prestigious Java Programming Contest sponsored by the **ACM (Association for Computing Machinery)**.
 
